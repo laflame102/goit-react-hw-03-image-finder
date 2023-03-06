@@ -70,7 +70,7 @@ export class ImageGallery extends Component {
         )}
         {showModal && (
           <Modal onClose={this.toggleModal}>
-            <img src={selectedImage} alt="" />
+            <img src={selectedImage} alt="g" />
           </Modal>
         )}
         {images.length > 0 && <Button onLoad={this.handleLoad} />}
